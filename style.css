@@ -1,0 +1,199 @@
+html{
+  cursor:default;
+}
+
+
+body{
+  margin:0;
+}
+p{
+  font-family: 'Rubik', sans-serif;
+  /* margin-left: 10px; */
+  /* margin-bottom: 10px; */
+  margin:0;
+  padding: 10px;
+  border-width: 1px;
+  border-bottom-style:solid;
+  border-bottom-color:black;
+}
+
+p:hover{
+    background-color: yellow;
+    background-repeat: repeat;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+  padding:0;
+}
+
+.emoji{
+  font-size: 20px;
+}
+
+.emoji:hover{
+  background-color:red ;
+
+  /* text-decoration: underline; */
+}
+
+
+.duck{
+  margin:0;
+  /* padding: 10px; */
+  height:100vh;
+  /* background-color: yellow; */
+  position:relative;
+  /* max-height: 100%; */
+  display: block;
+
+}
+
+
+.projectone{
+  height:50vh;
+  padding-right: 8px;
+}
+
+
+.uni:hover{
+  text-decoration: underline;
+  color:red;
+
+}
+
+.why{
+  white-space: nowrap;
+  overflow-x: scroll;
+  border: 0;
+  padding: 0;
+  border-width: 1px;
+  border-bottom-style:solid;
+  border-bottom-color:black;
+  margin:0;
+  padding: 10px;
+
+}
+
+.why:hover{
+    background-color: yellow;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+  }
+
+.best:hover{
+  text-decoration: underline;
+  color:red;
+}
+
+.projecttwo{
+  height:60vh;
+  padding-top: 8px;
+  padding-right: 10px;
+  padding-bottom: 8px;
+  display: block;
+  /* border-right-style:solid; */
+  /* border-right-color:black; */
+  border-width: 1px;
+  margin:0;
+  /* white-space: nowrap; */
+  /* overflow-y: scroll; */
+}
+
+.guangzhou{
+  white-space: nowrap;
+  overflow-y: auto;
+  border-width: 1px;
+  border-right-style:solid;
+  border-right-color:black;
+  /* border-bottom-style:solid; */
+  /* border-bottom-color:black; */
+  margin:0;
+  padding: 10px;
+  /* padding-left: 10px; */
+  display: block;
+  width:33vw;
+  height: 93vh;
+  cursor: url('img/63042.png'), auto;
+}
+
+.guangzhou:hover{
+  background-color: yellow;
+  -webkit-transition-duration: 0.5s; /* Safari */
+  transition-duration: 0.5s;
+}
+
+.home{
+  font-size: 20px;
+  border-width: 1px;
+  border-top-style:solid;
+  border-top-color:black;
+}
+
+.home:hover{
+  background-color:red ;}
+
+.memo1{
+  white-space: nowrap;
+  overflow-x: scroll;
+  border: 0;
+  padding: 0;
+  /* border-width: 1px; */
+  /* border-bottom-style:solid; */
+  /* border-bottom-color:black; */
+  margin:0;
+  padding: 10px;
+}
+
+.memo1:hover{
+  background-color: yellow;
+  -webkit-transition-duration: 0.5s; /* Safari */
+  transition-duration: 0.5s;
+}
+
+.projectthree{
+  height:50vh;
+  padding-right: 8px;
+
+}
+
+.xiezhen{
+  font-family: 'Rubik', sans-serif;
+  margin:0;
+  padding: 10px;
+  border-width: 1px;
+  border-top-style:solid;
+  border-top-color:black;
+
+}
+
+
+
+/* 之后会删掉 */
+
+.slideshow-container {
+  position: relative;
+  width:50vw;
+  height:50vh;
+
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  /* top: 50%; */
+  width: 50vw;
+  height:50vh;
+  color: white;
+  font-size: 18px;
+  user-select: none;
+  /* opacity: 0; */
+}
+
+
+.next {
+  right: 0;
+}

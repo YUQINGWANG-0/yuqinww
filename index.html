@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Wang Yuqing</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+   <p class=“yu”>
+		 <a href="CV.pdf" class="best">王雨晴</a> / Wang Yuquing / wangyuqingwww@163.com
+ 	 </p>
+
+
+
+
+		<div class="why">
+			<img src="img/duck.jpg" class="duck">
+		</div>
+
+
+	 <p class="study">
+	 Yuqing is now doing her master degree in <a href="https://en.wikipedia.org/wiki/Bioinformatics" class="best">Bioinformatics</a> at the <a href="https://www.ed.ac.uk/" class="uni">University of Edinburgh.</a> Her ultimate goal is to find inner happiness but for now the only thing she knows is <a href="https://en.wikipedia.org/wiki/Mitochondrion" class="best">mitochondrion</a> is the powerhouse of cell.
+
+	</p>
+
+
+
+    <div class="why">
+
+		 <img src="img/5.png" class="projectone">
+
+	  	&nbsp;
+
+			<!-- 这个是silde -->
+
+		<!-- <div class="slideshow-container"> -->
+
+		<!-- <div class="mySlides fade"> -->
+		 <img src="img/coco.jpg"  class="projectone">
+		 <!-- </div> -->
+		 <!-- <div class="mySlides fade"> -->
+	&nbsp;
+		  <img src="img/WechatIMG160.jpeg"  class="projectone">
+     <!-- </div> -->
+
+		<!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+
+		 <!-- </div> -->
+
+		 <!-- silde完 -->
+
+
+		 &nbsp;
+
+		 <img src="img/1.jpg" class="projectone">
+		 &nbsp;
+		<img src="img/11.jpg" class="projectone">
+		&nbsp;
+	  <img src="img/niu.jpg" class="projectone">
+	 &nbsp;
+    <img src="img/yb2.jpg" class="projectone">
+	 &nbsp;
+  	<img src="img/shan.jpg" class="projectone">
+
+		</div>
+
+		<a href="Guangzhou.html">
+			<p class="emoji">
+			☔️+☀️+🐯=🍜
+		</p>
+		</a>
+
+		<p>
+	  This website is a gift to yuqing, designed by Lihua Yu. They have been <a href="memories.html" class="best">best friends</a> since the first year of the high school. ©️2020</p>
+
+
+
+	<script>
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+	function plusSlides(n) {
+	  showSlides(slideIndex += n);
+	}
+
+	function currentSlide(n) {
+	  showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
+	  if (n > slides.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+	      slides[i].style.display = "none";
+	  }
+	  for (i = 0; i < dots.length; i++) {
+	      dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";
+	  dots[slideIndex-1].className += " active";
+	}
+	</script>
+
+	</body>
+	</html>
